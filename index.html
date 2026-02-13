@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <!-- Header et Navigation -->
+    <header>
+        <nav>
+            <a href="#" class="logo">SC</a>
+            <div class="menu-btn">
+                <div class="menu-btn__lines"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#aboutScreen">À propos</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#projetsProfessionnelsScreen">Projets</a></li>
+                <li><a href="#qualificationsScreen">Diplomes</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section Accueil -->
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <a href="#contact" class="cta-btn">Me Contacter</a>
+            <div class="arrow-down"></div>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+	  <section class='screen' id='aboutScreen'>
+        <div class='spacermenu'></div>
+        <h1 class="sectionTitle">À propos</h1>
+          <div class="screenCenterContent container">
+              <div class='row'>
+                <div class="pic_container col-md-1">
+                    <div class="picContent">
+                        <span class="pic_back pic_element"></span>
+                        <div id="profil_pic" class="pic_element"></div>
+                    </div>
+                </div>
+                
+                <div id="about_p_container" class='col-md'>
+                    <nav class='btn_nav'>
+                        <ul>
+                            <li data-nw-id-target='about_presentation_p' data-nw-classGroup="about_p" class="js_show_btn selected_btn">Présentation</li>
+                            <li data-nw-id-target='about_languages_p' data-nw-classGroup="about_p" class="js_show_btn">Langues</li>
+                            <li data-nw-id-target='about_softskills_p' data-nw-classGroup="about_p" class="js_show_btn">Soft skills</li>
+                            <li data-nw-id-target='about_hobbies_p' data-nw-classGroup="about_p" class="js_show_btn">Passions</li>
+                        </ul>
+                    </nav>
+                    <div class="box_style about_p" id="about_presentation_p">
+                        <p class='p-spacer-under'>Actuellement en deuxième année de BTS Négociation et Digitalisation de la Relation Client (NDRC), je me spécialise dans le marketing digital et la communication web. Actuellement en recherche d'alternance dans ce domaine, dynamique et créative, je mets à profit mes compétences pour créer des opportunités commerciales et concevoir des stratégies digitales efficaces et innovantes.</p><br>
+                        <p class='p-spacer-under'>Mes expériences m'ont permis de développer une maîtrise des outils digitaux, une forte capacité d'analyse et un sens aigu de la relation client. Toujours à l’affût des nouvelles tendances, je suis motivée à relever des défis et à contribuer activement à la réussite des projets.</p><br>
+                        <p class='p-spacer-under'>N’hésitez pas à me contacter pour en savoir plus !</p>
+                    </div>
+                    <div class="box_style about_p languages-section hidden" id="about_languages_p">
+                        <div class="language-grid">
+                            <div class="language-item">
+                                <img class="flagImage" src="FR.png" alt="Français">
+                                <h3>Français</h3>
+                                <p>Langue Maternelle</p>
+                            </div>
+                            <div class="language-item">
+                                <img class="flagImage" src="UK.png" alt="Anglais">
+                                <h3>Anglais</h3>
+                                <p>Niveau B2 - TOEIC 925</p>
+                            </div>
+                            <div class="language-item">
+                                <img class="flagImage" src="ES.png" alt="Espagnol">
+                                <h3>Espagnol</h3>
+                                <p>Niveau B1+</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box_style about_p hidden" id="about_softskills_p">
+                        <ul>
+                            <li><h3>Écoute active et orientation client</h3> 
+                            <li><h3>Travail d'équipe</h3> 
+                            <li><h3>Adaptabilité</h3>
+                            <li><h3>Attention aux détails</h3> 
+                            <li><h3>Ambitieuse</h3> 
+                            <li><h3>Souriante</h3>
+                            <li><h3>Dévouée</h3>
+                        </ul>
+                    </div>
+                    <div class="box_style about_p hidden" id="about_hobbies_p">
+                        <div class="hobbies-container">
+                            <div class="hobby-item">
+                                <div class="hobby-icon">
+                                    <img src="Sport.jpg" alt="Violon">
+                                </div>
+                                <h3>Sport</h3>
+                            </div>
+                    
+                            <div class="hobby-item">
+                                <div class="hobby-icon">
+                                    <img src="voyage.jpg" alt="Voyager">
+                                </div>
+                                <h3>Voyager</h3>
+                            </div>
+                            <div class="hobby-item">
+                                <div class="hobby-icon">
+                                    <img src="lire.jpg" alt="Pâtisserie">
+                                </div>
+                                <h3>Lire</h3>
+                            </div>
+                            <div class="hobby-item">
+                                <div class="hobby-icon">
+                                    <img src="piano.jpg" alt="Pâtisserie">
+                                </div>
+                                <h3>Piano</h3>
+                            </div>
+                        </div>
+                    </div>                    
+    </section>  
+ <!-- Section Compétences -->
+ <section id="competences" class="screen">
+    <div class="spacermenu"></div>
+    <h1 class="sectionTitle">Compétences</h1>
+    <div class="competences-container">
+        
+        <div class="competence-card">
+            <img src="word.png" alt="Microsoft Word">
+            <h2>Microsoft Word</h2>
+            <p>Traitement de texte et mise en page avancée.</p>
+        </div>
+
+        <div class="competence-card">
+            <img src="excel.png" alt="Microsoft Excel">
+            <h2>Microsoft Excel</h2>
+            <p>Analyse de données, tableaux croisés dynamiques.</p>
+        </div>
+
+        <div class="competence-card">
+            <img src="powerpoint.png" alt="Microsoft PowerPoint">
+            <h2>Microsoft PowerPoint</h2>
+            <p>Création de présentations dynamiques.</p>
+        </div>
+
+        <div class="competence-card">
+            <img src="prestashop.png" alt="PrestaShop">
+            <h2>PrestaShop</h2>
+            <p>Gestion et personnalisation de boutiques en ligne.</p>
+        </div>
+
+        <div class="competence-card">
+            <img src="wordpress.png" alt="WordPress">
+            <h2>WordPress</h2>
+            <p>Création et gestion de sites web dynamiques.</p>
+        </div>
+
+        <div class="competence-card">
+            <img src="canva.jpg" alt="Canva">
+            <h2>Canva</h2>
+            <p>Création graphique intuitive pour le web et le print.</p>
+        </div>
+
+    </div>
+</section>
+<!-- Section Mes Projets Professionnels -->
+<section class="screen" id="projetsProfessionnelsScreen">
+    <div class="spacermenu"></div>
+    <h1 class="sectionTitle">Projets professionnels</h1>
+    <div class="projets-container">
+
+        <!-- Projet 1 -->
+        <div class="projet-card">
+            <div class="flip-inner">
+                <div class="flip-front">
+                    <img src="bimpli.png" alt="Projet 1">
+                </div>
+                <div class="flip-back">
+                    <h2>La Poste</h2>
+                    <p>À La Poste, j'ai conçu des <B>flyers</B> pour promouvoir le <B>partenariat</B> avec <B>Bimpli</B> et ses chèques cadeaux. J'ai aussi <B>organisé</B> et animé un événement commercial pour la carte <B>Pro Génération</B> et ses services. En parallèle, j'ai mené des actions de <B>prospection</B>, du <B>mailing</B>, du <B>phoning</B> et créé des <B>enquêtes</B> de satisfaction.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Projet 2 -->
+        <div class="projet-card">
+            <div class="flip-inner">
+                <div class="flip-front">
+                    <img src="thiret.jpg" alt="Projet 2">
+                </div>
+                <div class="flip-back">
+                    <h2>Maison Thiriet</h2>
+                    <p>Chez Maison Thiriet, j'ai assuré une mission de <B>prospection</B> et de vente en porte-à-porte.
+                        Mon rôle consistait à <B>présenter</B> l’offre commerciale avec un camarade de classe, établir des
+                        <B>contacts clients</B> et finaliser les <B>transactions</B> via la saisie de bons de commande.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Projet 3 -->
+        <div class="projet-card">
+            <div class="flip-inner">
+                <div class="flip-front">
+                    <img src="galery.png" alt="Projet 3">
+                </div>
+                <div class="flip-back">
+                    <h2>Galeries Lafayette</h2>
+                    <p>A Galeries Lafayette, j'ai participé à des missions de <B></B>merchandising pour les marques <B>Levis,</B>
+                        <B>Calvin Klein,</B> et <B>Tommy Highflyer.</B> J'ai contribué à la mise en valeur des
+                        produits en magasin, optimisant leur présentation pour attirer <B>l'attention</B> des clients et
+                        <B>stimuler</B> les ventes.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Projet 4 -->
+        <div class="projet-card">
+            <div class="flip-inner">
+                <div class="flip-front">
+                    <img src="catalogue.png" alt="Projet 4">
+                </div>
+                <div class="flip-back">
+                    <h2>Festishow</h2>
+                    <p>Chez Festishow, j'ai eu l'opportunité de créer un <B>catalogue</B> produit complet, destiné à
+                        présenter l'ensemble des <B>structures gonflables</B> et <B>activités.</B>En parallèle, j'ai <B>animé</B> le site
+                        internet en y intégrant des <B>articles</B> pour le <B>référencement</B>.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Qualifications -->
+<section class="screen" id="qualificationsScreen">
+    <div class="spacermenu"></div>
+    <h1 class="sectionTitle">Diplômes</h1>
+    
+    <div class="qualifications-grid">
+        <div class="qualif-card fade-in-out">
+            <h2>Brevet des Collèges</h2>
+            <p>Diplôme National du Brevet</p>
+            <p>Session Générale</p>
+            <p>Lycée Edmond Rostand - La Ravoire, France</p>
+            <p class="qualifDate">2018 - 2019</p>
+        </div>
+
+        <div class="qualif-card fade-in-out">
+            <h2>Baccalauréat Technologique</h2>
+            <p>Sciences et Technologies du Management et de la Gestion</p>
+            <p>Lycée du Granier - La Ravoire, France</p>
+            <p class="qualifDate">2022 - 2023</p>
+        </div>
+
+        <div class="qualif-card fade-in-out">
+            <h2>BTS NDRC</h2>
+            <p>Brevet de Technicien Supérieur - Négociation et Digitalisation de la Relation Client</p>
+            <p>Lycée Monge - Chambéry, France</p>
+            <p class="qualifDate">2024 - 2025</p>
+        </div>
+
+        <div class="qualif-card fade-in-out">
+            <h2>Permis de conduire</h2>
+            <p>Permis B -</p>
+            <p>Centre d'examen du permis de conduire - Chambéry, France</p>
+            <p class="qualifDate">2024 - 2025</p>
+        </div>
+</section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact <span class="title-deco">~</span></h2>
+    
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i> <!-- Icône Email -->
+                    <a href="mailto:tonemail@example.com">salwachrk@gmail.com</a>
+                </div> 
+                <div class="contact-item">
+                    <i class="fas fa-phone-alt"></i> <!-- Icône Téléphone -->
+                    <a href="tel:+33123456789">+33 6 95 53 35 62</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-download"></i> <!-- Icône Téléchargement -->
+                    <a href="cvsalwa.pdf" download class="btn-download">Télécharger mon CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Mon Portfolio. Tous droits réservés.</p>
+    </footer>
+
+    <script src="styles.js"></script>
+</body>
+</html>
